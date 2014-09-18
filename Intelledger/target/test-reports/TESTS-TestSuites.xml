@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="1" hostname="LDJ4WG12" id="0" name="IntelledgerTests" package="com.generic.intelledger" tests="2" time="15.717" timestamp="2014-09-18T17:23:49">
+      <properties />
+
+      <testcase classname="com.generic.intelledger.IntelledgerTests" name="testSomething" time="0.435">
+          <failure message="java.lang.AssertionError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: java.lang.AssertionError: Implement me
+	at com.generic.intelledger.IntelledgerTests.testSomething(IntelledgerTests.groovy:21)
+</failure>
+
+      </testcase>
+
+      <testcase classname="com.generic.intelledger.IntelledgerTests" name="testSetWithoutEntries" time="15.257" />
+
+      <system-out><![CDATA[--Output from testSomething--
+--Output from testSetWithoutEntries--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+--Output from testSetWithoutEntries--
+]]></system-err>
+
+  </testsuite>
+</testsuites>
