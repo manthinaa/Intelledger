@@ -1,0 +1,8 @@
+/target
+/target-eclipse
+/plugin.xml
+/.settings
+/web-app/WEB-INF
+/grails-intelledger-*.zip
+/grails-intelledger-*.zip.sha1
+*.log
