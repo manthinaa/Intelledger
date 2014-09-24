@@ -2,7 +2,6 @@ package com.generic.intelledger
 
 import com.generic.intelledger.domain.Intelledger as IntelledgerDomain
 
-
 class Intelledger {
 
 	static void set(String intelledgerName, String intelledgerDescription = null) {
@@ -10,11 +9,7 @@ class Intelledger {
 	}
 
 	static private IntelledgerDomain getCreateDomain(String intelledgerName, String description = null) {
-		IntelledgerDomain domain = getDomain(intelledgerName)
-
-		if (domain == null) {
-			domain = new IntelledgerDomain(name: intelledgerName)
-		}
+		IntelledgerDomain domain = getDomain(intelledgerName) ?: new IntelledgerDomain(name: intelledgerName)
 
 		domain.description = (description ?: domain.description)
 
